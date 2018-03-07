@@ -1,0 +1,10 @@
+
+package javaapplication2;
+
+
+public abstract class Item {
+    protected String nome;
+    
+    public abstract String examinar();
+    
+}
