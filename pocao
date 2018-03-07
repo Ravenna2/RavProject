@@ -1,0 +1,22 @@
+
+package javaapplication2;
+
+
+public class Pocao extends Item implements IUsavel{
+    private int HPrestaurado;
+    public Pocao(String  nome, int HPRestaurado){
+    this.nome = nome;
+    this.HPrestaurado = HPRestaurado; }
+    
+        @Override
+    public String examinar() {
+        String dado = this.nome + String.valueOf(this.HPrestaurado);
+        return dado;
+    }
+
+    @Override
+    public int usar() {
+        return this.HPrestaurado;
+    }
+    
+}
