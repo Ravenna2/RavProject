@@ -1,0 +1,16 @@
+
+package javaapplication2;
+
+
+public class AtaqueaDistancia extends Arma{
+
+    public AtaqueaDistancia(String nome, int danoMAX, int durabilidade) {
+        super(nome, danoMAX, durabilidade);
+    }
+
+    @Override
+    public boolean usaApenasUmaMao() {
+        return false;
+    }
+    
+}
