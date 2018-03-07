@@ -1,7 +1,7 @@
 # RavProject
 
 git init 
-git remote add origin https://github.com/Ravenna2/RavProject.git
+git remote add origin https://github.com/Ravenna2/RavProject/blob/RavProject-edits/README.md
 git push -u origin RavProject-edits
 
 import java.util.Random;
