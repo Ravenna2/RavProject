@@ -1,0 +1,17 @@
+
+package javaapplication2;
+
+
+
+public class CorpoaCorpo extends Arma {
+
+    public CorpoaCorpo(String nome, int danoMAX, int durabilidade) {
+        super(nome, danoMAX, durabilidade);
+    }
+
+    @Override
+    public boolean usaApenasUmaMao() {
+        return true;
+    }
+    
+}
