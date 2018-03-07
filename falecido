@@ -1,0 +1,12 @@
+
+package javaapplication2;
+
+
+public class Personagemfalecido extends Exception {
+
+    public Personagemfalecido() {
+    }
+    public Personagemfalecido(String msg) {
+        super(msg);
+    }
+}
